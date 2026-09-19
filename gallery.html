@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery |Blue Diamond Construction Co.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div><i class="fa-solid fa-phone"></i> +252-907743157| <i class="fa-solid fa-envelope"></i> info@Blue-Diamond.com</div>
+            <div><i class="fa-solid fa-shield-halved"></i> HSE Certified: Zero Incidents Goal</div>
+        </div>
+    </div>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"> <img src="images/logo2.jpg" alt="Company Logo" width="400" height="40"> 
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="gallery.html" class="active">Gallery</a>
+                <a href="hse.html">HSE</a>
+                <a href="careers.html">Careers</a>
+                <a href="news.html">News</a>
+                <a href="contact.html" class="nav-cta">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="page-header">
+        <div class="container">
+            <h1>On-Site Action Gallery</h1>
+            <p>A pure visual window into our machinery, team coordination, and raw structural progress.</p>
+        </div>
+    </section>
+    <section class="container content-section">
+        <div class="gallery-grid">
+	<figure class="project-card">
+   <img src="images/Watercachmennt2.jpg" alt="Lined Water Catchment"class="lightbox-trigger" onclick="openLightbox(this.src, 'Figure 1: Lined Water Catchment')">
+<figcaption>Lined Water Catchment</figcaption>
+</figure>
+	<figure class="project-card">
+            <img src="images/Watercachmennt2.jpg" alt="Lined Water Catchment"class="lightbox-trigger" onclick="openLightbox(this.src, 'Figure 2: Lined Water Catchment')">
+<figcaption>Lined Water Catchment</figcaption>
+</figure>
+          <figure class="project-card">
+  <img src="images/watertank1.jpg" alt="Water Tank"class="lightbox-trigger" onclick="openLightbox(this.src, 'Figure 3: Water Tank')">
+<figcaption> Water Tank</figcaption>
+</figure>
+            <figure class="project-card">
+<img src="images/solarsystem.jpg" alt="Solar System"class="lightbox-trigger" onclick="openLightbox(this.src, 'Figure 4: Solar System')">
+<figcaption>Solar System</figcaption>
+</figure>
+            <figure class="project-card">
+<img src="images/heavy1.jpg" alt="Heavy Equipment"class="lightbox-trigger" onclick="openLightbox(this.src, 'Figure 5: Heavy Equipment')">
+<figcaption>Heavy Equipment</figcaption>
+</figure>
+	<figure class="project-card">
+<img src="images/watertank1.jpg" alt="Concrete Tank.jpgt"class="lightbox-trigger" onclick="openLightbox(this.src, 'Figure 6: Concrete Tank')">
+<figcaption>Concrete Tank</figcaption>
+</figure>
+	<figure class="project-card">
+<img src="images/alnajax2.jpeg" alt="Hotel"class="lightbox-trigger" onclick="openLightbox(this.src, 'Figure 7: Luxury Hotel')">
+<figcaption>Luxury Hotel</figcaption>
+</figure>
+</div>
+
+<!-- 2. The Hidden Window Overlay (Lightbox Modal) -->
+<div id="lightboxModal" class="lightbox-modal">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <div class="lightbox-content">
+    <img id="lightboxImg" src="" alt="Enlarged View">
+    <div id="lightboxCaption"></div>
+  </div>
+            
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+		<a href="index.html" class="logo"><img src="images/logo3.png" alt="Company Logo" width="300" height="40"> </a>
+                <p>Providing heavy civil engineering, industrial design, and premium commercial construction infrastructure since 2010.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="projects.html">Portfolio</a>
+            </div>
+            <div class="footer-links">
+                <h4>Compliance & Safety</h4>
+                <a href="hse.html">HSE Commitments</a>
+                <a href="careers.html">Careers / Hiring</a>
+                <a href="news.html">Company News</a>
+                <a href="contact.html">Request a Quote</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 Blue Diamond Construction Co. LLC. All rights reserved.</p>
+                <p>Licence ISO 45001 & OSHA Compliant</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
