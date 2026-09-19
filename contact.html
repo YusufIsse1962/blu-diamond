@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | BLUE DIAMOND  Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div><i class="fa-solid fa-phone"></i> +252-907743157| <i class="fa-solid fa-envelope"></i> info@Blue-Diamond.com</div>
+            <div><i class="fa-solid fa-shield-halved"></i> HSE Certified: Zero Incidents Goal</div>
+        </div>
+    </div>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"> <img src="images/logo2.jpg" alt="Company Logo" width="400" height="40"> 
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="hse.html">HSE</a>
+                <a href="careers.html">Careers</a>
+                <a href="news.html">News</a>
+                <a href="contact.html" class="nav-cta active">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="page-header">
+        <div class="container">
+            <h1>Let's Talk Logistics</h1>
+            <p>Submit bid requests, plan designs, project tenders, or submit operational hiring profiles.</p>
+        </div>
+    </section>
+    <section class="container content-section split-layout">
+        <div>
+            <h2>Corporate Headquarters</h2>
+            <br>
+            <p><strong>Address:</strong> 30St Garowe, Suite 02, Puntland-Somalia</p>
+            <p><strong>Primary Line:</strong> +252 (90) 774-3157</p>
+            <p><strong>Bidding Registry:</strong> estimating@blue-diamond.com</p>
+        </div>
+        <form class="contact-form" id="intake-form">
+            <h3>Request Pricing / Submit Resume</h3>
+            <div id="form-error-msg" class="alert-box error-alert" style="display:none;"></div>
+            <div id="form-success-msg" class="alert-box success-alert" style="display:none;">Form submitted securely! Our team will respond shortly.</div>
+            
+            <input type="text" id="form-name" placeholder="Full Name / Corporate Entity" required>
+            <input type="email" id="form-email" placeholder="Contact Email Address" required>
+            <select id="form-intent" required>
+                <option value="">Select Department Intent</option>
+                <option value="bidding">Project Tender Estimation</option>
+                <option value="career">Career Application Submission</option>
+                <option value="subcontractor">Subcontractor Networking</option>
+            </select>
+            <div id="upload-wrapper" style="display: none; background: #fff; padding: 15px; border-radius: 4px; border: 1px dashed #ccc;">
+                <label style="display:block; font-size:0.85rem; font-weight:bold; margin-bottom:5px; color:var(--primary-color);">Upload Documents (PDF Only, Max 5MB):</label>
+                <input type="file" id="form-file" accept=".pdf">
+            </div>
+            <textarea id="form-message" placeholder="Outline project specs..." rows="6" required></textarea>
+            <button type="submit" class="form-submit">Submit Document Brief</button>
+        </form>
+    </section>
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+		<a href="index.html" class="logo"><img src="images/logo3.png" alt="Company Logo" width="300" height="40"> </a>
+                <p>Providing heavy civil engineering, industrial design, and premium commercial construction infrastructure since 2010.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Our Services</a>
+                <a href="projects.html">Portfolio</a>
+            </div>
+            <div class="footer-links">
+                <h4>Compliance & Safety</h4>
+                <a href="hse.html">HSE Commitments</a>
+                <a href="careers.html">Careers / Hiring</a>
+                <a href="news.html">Company News</a>
+                <a href="contact.html">Request a Quote</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; 2026 Blue Diamond Construction Co. LLC. All rights reserved.</p>
+                <p>Licence ISO 45001 & OSHA Compliant</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
